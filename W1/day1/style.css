@@ -1,0 +1,47 @@
+   ul {
+       list-style: none;
+       color: darkcyan;
+       font-size: 30px;
+       background-color: aliceblue;
+   }
+
+   table {
+       border: 1px solid black;
+       border-collapse: collapse;
+       /*Esto hace que los bordes de las celdas se unan */
+   }
+
+   th , td {
+       border: 1px solid black;
+       padding: 10px;
+   }
+
+   aside {
+       display: inline-block;
+       width: 200px;
+       position: fixed;
+       top: 50px;
+       left: 0;
+       background-color: red;
+   }
+
+main {
+    padding: 100px;
+}
+
+.main-table {
+    border: 5px solid palegoldenrod;
+}
+
+.rect {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+.red {
+    background-color: darkred;
+}
+
+.blue {
+    background-color: darkgreen;
+}

@@ -1,0 +1,67 @@
+html {
+    font-size: 20px;
+}
+head h1 {
+    text-align: left;
+    font-size: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    font-size: 0.8em;
+}
+nav a {
+    color: blue;
+}
+
+main h1 {
+    font-size: 1.8em;
+}
+main p {
+    font-size: 0.8em;
+}
+main span {
+    background-color: yellow;
+}
+
+main h3 {
+    font-size: 1.1em;
+    margin-left: 50px;
+}
+.listcats {
+    margin-left: 70px;
+}
+.listcats li {
+    font-size: 0.8em;
+}
+
+main h1 {
+    font-size: 0.9em;
+}
+
+section h2 {
+    text-align: center;
+}
+section img {
+    margin-left: 35%;
+}
+
+article p {
+    font-size: 0.8em;
+}
+article div {
+    color: red;
+    display: box; 
+    border: 1px solid red;
+    text-align: center;
+    padding: 10px;
+    margin: 50px;
+}
+
+.tablaarticle , td{
+    border: 1px solid black;
+    margin: 50px;
+}
+footer img {
+    margin-left: 35%;
+}
