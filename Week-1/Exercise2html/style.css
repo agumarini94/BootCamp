@@ -1,0 +1,91 @@
+body {
+    background-image: url(https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    margin: 0;
+}
+header {
+    top:0;
+    margin: 0;
+    /* background-image: url(https://images.pexels.com/photos/1298684/pexels-photo-1298684.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: fixed; 
+    /* top: 0px; */
+    height: 80%;
+    width: 100%;
+    font-size: 22px;
+}
+nav {
+    background-color: gray;
+    height: 10%;
+}
+.signin {
+    list-style: none;
+    float: right;
+    padding: 20px;
+}
+.signin:hover {
+    background-color: lightblue;
+}
+.accion {
+    width: 50%;
+    position: relative;
+    top: 40vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+h1 {
+    color: aliceblue;
+}
+
+.forminicio div {
+    display: inline-block;
+    padding: 20px;
+}
+
+.formemail {
+    width: 500px;
+    height: 30px;
+}
+
+.submit {
+    background-color: blue;
+    font-size: 1em;
+    height: 30px;
+    width: 110px;
+    color: lightblue;
+}
+.submit:hover {
+    font-size: 1.1em;
+    color: blue;
+    background-color: lightblue;
+}
+.cards{
+    position: relative;
+    bottom: -600px ;
+    /* bottom: 0px; */
+    /* margin: 0px; */
+    background-color: lightgray;
+    height: 20%;
+    width: 100vw;
+    text-align: center;
+}
+
+.cards div {
+    display: inline-block;
+    padding: 30px;
+    width: 25%;
+}
+
+.cards img {
+    width: 50px;
+    height: 50px;
+}
+.bloque {
+    height: 100px;
+    margin: 10px;
+}

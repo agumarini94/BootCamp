@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 3</title>
+    <style>
+        .navbar {
+            height: 50px;
+            width: 90vw;
+            border: 1px solid green;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            background-color: darkblue;
+            flex-grow: 1;
+        }
+        .link-li {
+            flex-grow: 4 ;
+            /* 5 significa que es 5 veces mas grande */
+        }
+        .team {
+            flex-shrink: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">Logo</div>
+        <div class="link-li" style="background-color: red;">Team</div>
+        <div class="link-li" style="background-color: aqua;">Products</div>
+    </div>
+</body>
+</html>

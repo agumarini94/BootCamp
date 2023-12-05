@@ -1,0 +1,29 @@
+.child1 {
+    width: 500px;
+    height: 200px;
+    background-color: gray;
+    position: relative; 
+    left: 40px;
+    top: 100px;
+}
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    /* La posicion es absoluta respecto de child1. 
+    el cuadrado azul se posiciona respecto a child1  */
+    left: 90px;
+    top: 40px;
+}
+
+.child3 {
+    width: 100px;
+    height: 100px;
+    background-color: orange;  
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+

@@ -13,7 +13,9 @@ header {
 }
 
 .logo {
-    height: 9vw;
+    height: 4vw;
+    width: 50px;
+
 }
 
 nav {
@@ -22,7 +24,7 @@ nav {
     padding: 7px;
 }
 
-ul {
+ol {
     float: right;
 }
 li {
@@ -45,6 +47,6 @@ p {
     /* padding-left: 100;
     padding-top: 100; */
     position: absolute;
-    top: 40%;
-    left: 10%;
+    top: 30%;
+    left: 15%;
 }
