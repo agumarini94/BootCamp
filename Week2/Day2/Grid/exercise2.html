@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise 2</title>
+    <style>
+        body{
+            margin: 0;
+            border: 4px solid gray;
+            background-color: lightcyan;
+        }
+        .container {
+            display: grid;
+            height: 200vh;
+            width: 80%;
+            /* grid-template-rows: 4 , auto; */
+            grid-template-columns: 2fr 1fr 1fr;
+            gap: 10px;
+            grid-template-areas: 
+            'header header header'
+            'hero main main'
+            'sidebar main main'
+            'sidebar extra extra'
+            'images images posts'
+            'footer footer footer';
+            border: 2px solid blue;
+        }
+        .contheader{
+            background-color: aqua;
+            grid-area: header;
+        }
+        .conthero{
+            background-color: bisque;
+            grid-area: hero;
+        }
+        .contmain{
+            background-color: orange;
+            grid-area: main;
+            
+        }
+        .contsidebar{
+            background-color: green;
+            grid-area: sidebar;
+        }
+        .contextra{
+            background-color: gray;
+            grid-area: extra;
+        }
+        .contimages{
+            background-color: greenyellow;
+            grid-area: images;
+        }
+        .contposts{
+            background-color: violet;
+            grid-area: posts;
+        }
+        .contfooter{
+            background-color: orangered;
+            grid-area: footer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">    
+        <div class="contheader"></div>
+        <div class="conthero"></div>
+        <div class="contmain"></div>
+        <div class="contsidebar"></div>
+        <div class="contextra"></div>
+        <div class="contimages"></div>
+        <div class="contposts"></div>
+        <div class="contfooter"></div>
+    </div>
+</body>
+</html>

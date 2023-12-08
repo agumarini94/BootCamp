@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box{
+            width: 150px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+        }
+        .main {
+            display: flex;
+            height: 70vh;
+            border: 2px solid red;
+            justify-content: center;
+        }
+
+        .container-sides{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .container-c{
+            /* Necesito darle width para que tengan espacio para separarse  */
+            width: 70%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* flex-direction: ; */
+        }
+/* 
+        ESTE DIV ES LO MISMO QUE LA COLUMNA IZQUIERDA Y DERECHA 
+        
+        .container-r {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        } */
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main">
+        <div class="container-sides">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="container-c">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+        <div class="container-sides">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+
+    </div>
+</body>
+</html>
