@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+@media only screen and (max-width: 480px){
+    body {
+        background-color: orange;
+        width: 1vw;
+    }
+    .bloque1{
+        display: table-column;
+        border: 5px solid green;
+    }
+}
+.bloque {
+    border: 3px solid red;
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+}
+
+.ele1 {
+    width: 500px;
+    height: 100px;
+    background-color: blue;
+}
+
+.ele2 {
+    width: 500px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.ele3 {
+    width: 500px;
+    height: 100px;
+    background-color: coral;
+}

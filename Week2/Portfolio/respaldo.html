@@ -1,0 +1,187 @@
+<nav>
+        <div class="navizq">
+            <img src="Images/Perfil.JPG">
+            <p>Agustin Leonel Marini - Portfolio</p>
+        </div>
+        <div class="navderecha">
+        <ul class="navright">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+
+
+    nav{
+    /* border: 3px solid yellow; */
+    height: 10vh;
+    width: 100vw;
+    position: relative;
+    background-color: white;
+    }
+    .navizq{
+    display: inline-flex;
+    font-size: 35px;
+    font-family: cursive;
+    }
+    .navizq p{
+    margin: 10px;
+    }
+    .navizq img{
+    padding: 2px;
+    margin-left: 15px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    }
+    .navderecha{
+    /* border: 3px solid red; */
+    float: right;
+    width: 30vw;
+    }
+    .navderecha li {
+    display: inline-flex;
+    width: 20%;
+    font-size: 20px;
+    padding: 5px;
+    margin: 0px;
+    }
+
+<!-- about me  -->
+    <div class="section_n2up">
+        <h1>ABOUT ME</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus impedit quo sapiente dolore sit,
+            consectetur quia, molestias ratione, perspiciatis error? Dolores harum sint cumque.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aspernatur sint necessitatibus ducimus provident
+            itaque.</p>
+    </div>
+    
+    <div class="section_n2bottom">
+    
+        <div class="section_n2left">
+            <h2>Lets go to know me</h2>
+            <p>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. Optio sunt, praesentium incidunt odit error
+                ea in ipsam, eum numquam magni consequatur eveniet vitae dolores libero!</p>
+            <p>Lorem ipsum dolor sit amet,<b> consectetur</b> adipisicing elit. Illo quis, ipsum excepturi ratione harum ab
+                nulla ea enim est iusto.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ullam.</p>
+            <a href="#">Contact me</a>
+        </div>
+    
+        <div class="section_n2right">
+            <div class="section_n2skills">
+                <h2>My Skills</h2>
+                <div class="skills">HTML</div>
+                <div class="skills">CSS</div>
+                <div class="skills">Javascript</div>
+                <div class="skills">PHP</div>
+                <div class="skills">MAC</div>
+                <div class="skills">IOS</div>
+                <div class="skills">ANDROID</div>
+                <div class="skills">WINDOWS</div>
+            </div>
+        </div>
+
+
+        <!-- css about me  -->
+        .section_n2 h2{
+        font-size: 30px;
+        }
+        .section_n2up{
+        position: relative;
+        top: 100px;
+        left: 50%;
+        height: fit-content;
+        /* border: 3px solid orange; */
+        width: 60vw;
+        transform: translate(-50%);
+        text-align: center;
+        background-color: lightgray;
+        }
+        
+        .section_n2bottom{
+        /* border: 4px solid red; */
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        top: 110px;
+        height: 50vh;
+        }
+        
+        .section_n2left{
+        /* border: 3px solid blue; */
+        width: 50vw;
+        margin-left: 20px;
+        height: max-content;
+        background-color: lightgray;
+        }
+        
+        .section_n2left a{
+        font-size: 30px;
+        margin-left: 30%;
+        padding: 5px;
+        text-align: center;
+        background-color: purple;
+        color: white;
+        border-radius: 10px;
+        text-justify: auto;
+        }
+        .section_n2left a:hover {
+        background-color: white;
+        color: purple;
+        
+        }
+        
+        .section_n2right{
+        /* border: 3px solid greenyellow; */
+        width: 30vw;
+        margin-right: 40px;
+        background-color: lightgray;
+        height: fit-content;
+        }
+
+
+        <!-- sector n2 -->
+
+        <div class="section_n2">
+            <div class="contenedorn2">
+                <div class="vacio">
+                    <!-- los espacios en blanco del sector 2 -->
+                </div>
+                <div class="section_n2top">
+                    <h1>ABOUT ME</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque necessitatibus impedit quo sapiente dolore
+                        sit, consectetur quia, molestias ratione, perspiciatis error? Dolores harum sint cumque.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias aspernatur sint necessitatibus ducimus
+                        provident itaque.</p>
+                </div>
+        
+                <!-- <div class="section_n2center1"> -->
+                <div class="section_n2center1">
+                    <h2>Lets go to know me</h2>
+                    <p>Lorem ipsum dolor sit amet <b>consectetur</b> adipisicing elit. Optio sunt, praesentium incidunt odit error ea in ipsam, eum numquam magni consequatur eveniet vitae dolores libero!</p>
+                            <p>Lorem ipsum dolor sit amet,<b> consectetur</b> adipisicing elit. Illo quis, ipsum excepturi ratione harum ab nulla ea enim est iusto.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ullam.</p>
+                            <a href="#">Contact me</a>
+                </div>
+        
+                <div class="section_n2center2">
+                    <!-- <div class="section_n2skills"> -->
+                    <h2>My Skills</h2>
+                    <div class="skills">HTML</div>
+                    <div class="skills">CSS</div>
+                    <div class="skills">Javascript</div>
+                    <div class="skills">PHP</div>
+                    <div class="skills">MAC</div>
+                    <div class="skills">IOS</div>
+                    <div class="skills">ANDROID</div>
+                    <div class="skills">WINDOWS</div>
+                    <!-- </div> -->
+                </div>
+                <div class="empty2"></div>
+                <div class="empty3"></div>
+            </div>
+        </div>
