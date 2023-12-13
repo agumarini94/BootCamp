@@ -7,13 +7,12 @@ body h2 + h5 + h4{
     font-style: oblique;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-@media  (max-width: 480px) {
+/* @media  (max-width: 480px) {
     body {
-        width: 20%;
-        display: table-column;
-        background-color: red;
+        /* width: 20%; */
+        /* display: table-column;
     }
-}
+} */ 
 header{
     height: 30vh;
     display: inline-block;
